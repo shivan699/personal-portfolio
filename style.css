@@ -16,7 +16,7 @@
    --bg-color:rgb(26, 25, 24);
    --text-color: rgb(255, 243, 230);
    --second-bg-color: rgb(71, 49, 34);
-   --main-color: rgb(8, 6, 103);
+   --main-color: rgb(71, 49, 34);
  }
 
  html{
@@ -97,9 +97,9 @@ body.light-mode {
 }
 
 body.dark-mode {
-   --bg-color:rgb(26, 25, 24);
+   --bg-color:rgb(7, 17, 152);
    --text-color: rgb(255, 243, 230);
-   --second-bg-color: rgb(71, 49, 34);
+   --second-bg-color: rgb(33, 3, 94);
    --main-color: rgb(244, 133, 55);
 }
 
@@ -681,4 +681,5 @@ body.dark-mode {
    display: block;
 
 }
+
 
