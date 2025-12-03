@@ -100,7 +100,7 @@ body.dark-mode {
    --bg-color:rgb(22, 24, 44);
    --text-color: rgb(255, 243, 230);
    --second-bg-color: rgb(33, 3, 94);
-   --main-color: rgb(67, 6, 104);
+   --main-color: rgb(6, 99, 239);
 }
 
 
@@ -681,6 +681,7 @@ body.dark-mode {
    display: block;
 
 }
+
 
 
 
