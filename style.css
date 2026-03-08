@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -90,17 +90,17 @@ input:checked + .slider:before {
 
 /* Light and Dark Modes */
 body.light-mode {
-   --bg-color: rgb(255, 243, 230);
-   --text-color: rgb(9, 9, 8);
-   --second-bg-color: rgb(250, 211, 162);
-   --main-color: rgb(103, 53, 7);
+   --bg-color: rgb(249, 194, 238);
+   --text-color: rgb(20, 17, 21);
+   --second-bg-color: rgb(220, 164, 242);
+   --main-color: rgba(11, 82, 168, 0.49);
 }
 
 body.dark-mode {
-   --bg-color:rgb(22, 24, 44);
+   --bg-color:rgb(245, 169, 169);
    --text-color: rgb(255, 243, 230);
-   --second-bg-color: rgb(33, 3, 94);
-   --main-color: rgb(6, 99, 239);
+   --second-bg-color: rgb(180, 161, 218);
+   --main-color: rgb(9, 11, 12);
 }
 
 
@@ -681,7 +681,6 @@ body.dark-mode {
    display: block;
 
 }
-
 
 
 
