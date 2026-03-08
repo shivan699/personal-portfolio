@@ -86,9 +86,7 @@
 <section class="about" id="about">
 <div class="about-container">
 
-<div class="about-img">
-<img src="pro.jpg" alt="Shivani jha">
-</div>
+ 
 
 <div class="about-content">
 <h2 class="heading">About Me</h2>
@@ -204,7 +202,7 @@ I am actively seeking internship or full-time opportunities where I can apply my
 </div>
 
 <div class="portfolio-box">
-<img src="backside.png" alt="placement portal">
+<img src="op.png" alt="placement portal">
 <div class="portfolio-layer">
 <h4>Placement Portal</h4>
 <p>Central Placement Portal is a unified platform designed to streamline campus recruitment by connecting students with companies, managing job postings, registrations, training, and placement schedules. It improves communication between recruiters, faculty, and students while ensuring a smooth and transparent hiring process.</p>
@@ -257,23 +255,36 @@ I am actively seeking internship or full-time opportunities where I can apply my
 <script src="script.js"></script>
 
 <script>
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyXfN3Li4YXYawt0BzpFcE80zBOooc5Ak9MA3vDqKtZ/exec'
-const form = document.forms['submit-to-google-sheet']
+
+const scriptURL = "https://script.google.com/macros/s/AKfycby_TY1qQWTz2rxhcaGhNIgQM_VxuNOTmtn3t1H_XTHnPGClgAyYViqW1cqwI1TXB1Ff4Q/exec"
+
+const form = document.forms["submit-to-google-sheet"]
+
 const msg = document.getElementById("msg")
 
-form.addEventListener('submit', e => {
+form.addEventListener("submit", e => {
+
 e.preventDefault()
-fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+
+fetch(scriptURL, {
+method:"POST",
+body:new FormData(form)
+})
+
 .then(response => {
-msg.innerHTML = "Message sent successfully"
-setTimeout(() => msg.innerHTML = "", 5000)
+
+msg.innerHTML = "Message sent successfully ✅"
+
+setTimeout(function(){
+msg.innerHTML=""
+},5000)
+
 form.reset()
+
 })
-.catch(error => console.error('Error!', error.message))
+
+.catch(error => console.error("Error!", error.message))
+
 })
+
 </script>
-
-</body>
-</html>
-
-
